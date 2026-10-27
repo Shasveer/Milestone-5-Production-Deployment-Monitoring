@@ -1,0 +1,61 @@
+{
+  "allowed_units": [
+    "g",
+    "kg",
+    "ml",
+    "L",
+    "pieces",
+    "tbsp",
+    "tsp",
+    "ZAR"
+  ],
+  "fraud_detection": {
+    "default_threshold": 0.65,
+    "high_risk_threshold": 0.85,
+    "investigation_cost_zar": 2500,
+    "avg_fraud_loss_zar": 45000
+  },
+  "model_retraining": {
+    "psi_drift_threshold": 0.15,
+    "f1_decay_threshold": 0.05,
+    "min_samples_for_retrain": 5000,
+    "max_retrain_frequency_days": 30
+  },
+  "deployment": {
+    "artifact_dir": "khetha_artifacts",
+    "log_level": "INFO",
+    "api_timeout_seconds": 30,
+    "max_prediction_latency_ms": 500
+  },
+  "south_african_context": {
+    "currency": "ZAR",
+    "provinces": [
+      "Gauteng",
+      "KwaZulu-Natal",
+      "Western Cape",
+      "Eastern Cape",
+      "Limpopo",
+      "Mpumalanga",
+      "North West",
+      "Free State",
+      "Northern Cape"
+    ],
+    "claim_types": [
+      "collision",
+      "theft",
+      "hijacking",
+      "windscreen",
+      "fire",
+      "weather",
+      "vandalism"
+    ],
+    "submission_channels": [
+      "USSD",
+      "mobile_app",
+      "call_centre",
+      "branch",
+      "web_portal"
+    ],
+    "fraud_base_rate": 0.018
+  }
+}

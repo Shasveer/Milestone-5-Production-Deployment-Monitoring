@@ -1,0 +1,35 @@
+{
+  "accuracy_decay": {
+    "absolute_accuracy_drop": 0.0,
+    "baseline_accuracy": 0.9145,
+    "current_accuracy": 0.9145
+  },
+  "active_drift_flags": {
+    "claim_amount": false,
+    "claim_type": false,
+    "policyholder_tenure_months": false,
+    "prior_claims_count": false,
+    "province": false,
+    "submission_channel": false,
+    "tracking_device_installed": false,
+    "vehicle_age_years": false
+  },
+  "f1_decay": {
+    "absolute_f1_drop": 0.0,
+    "baseline_f1": 0.17391304347826086,
+    "current_f1": 0.17391304347826086,
+    "threshold": 0.05
+  },
+  "generated_at": "2026-10-27T12:34:05.214352+00:00",
+  "latency_ms": {
+    "latest": 83.85309200002666,
+    "max": 83.85309200002666,
+    "mean": 83.85309200002666,
+    "observations": 1
+  },
+  "latest_retraining_trigger": false,
+  "model_version": "1.0.0",
+  "model_version_history": [
+    "v1.0.0"
+  ]
+}

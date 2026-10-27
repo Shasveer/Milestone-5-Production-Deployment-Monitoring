@@ -1,0 +1,91 @@
+{
+  "artifact_path": "khetha_artifacts/pipeline_v1.0.0.joblib",
+  "ci_method": "3-fold stratified CV approximation (M3 module unavailable)",
+  "decision_threshold": 0.65,
+  "deployment_manifest": "deployment_manifest.json",
+  "environment_lock": "environment_lock.json",
+  "environment_versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "features_expected": [
+    "province",
+    "claim_type",
+    "claim_amount",
+    "submission_channel",
+    "vehicle_age_years",
+    "policyholder_tenure_months",
+    "prior_claims_count",
+    "tracking_device_installed"
+  ],
+  "metrics": {
+    "accuracy": 0.9145,
+    "f1": 0.17391304347826086,
+    "precision": 0.15789473684210525,
+    "recall": 0.1935483870967742,
+    "roc_auc": 0.6923868486786091
+  },
+  "milestone_integration": {
+    "milestone_1_data_pipeline": false,
+    "milestone_2_preprocessor": false,
+    "milestone_3_ensemble_optimizer": false,
+    "milestone_4_evaluator": false
+  },
+  "nested_cv": {
+    "ci_95": [
+      0.6564714416344581,
+      0.7024856953260084
+    ],
+    "mean_score": 0.6794785684802332,
+    "method": "3-fold stratified CV approximation (M3 module unavailable)",
+    "outer_scores": [
+      0.6619480876412538,
+      0.6747206119264775,
+      0.7017670058729686
+    ]
+  },
+  "performance_ci": [
+    0.6564714416344581,
+    0.7024856953260084
+  ],
+  "positive_class": 1,
+  "retraining_log": [],
+  "serialized_at": "2026-10-27T12:34:04.972672+00:00",
+  "shap_source": "Random Forest feature-importance fallback; SHAP not installed",
+  "shap_summary": {
+    "categorical__claim_type_collision": 0.01803485484825874,
+    "categorical__claim_type_fire": 0.007007168691905866,
+    "categorical__claim_type_hijacking": 0.0654238311971621,
+    "categorical__claim_type_theft": 0.021736866794981168,
+    "categorical__claim_type_vandalism": 0.012176619036959569,
+    "categorical__claim_type_weather": 0.011024683061318373,
+    "categorical__claim_type_windscreen": 0.015558289759984629,
+    "categorical__province_Eastern Cape": 0.010549401722547256,
+    "categorical__province_Free State": 0.006978334594805637,
+    "categorical__province_Gauteng": 0.023192979493700232,
+    "categorical__province_KwaZulu-Natal": 0.017044487274491194,
+    "categorical__province_Limpopo": 0.014907736965808785,
+    "categorical__province_Mpumalanga": 0.008784728685602617,
+    "categorical__province_North West": 0.007785592383931307,
+    "categorical__province_Northern Cape": 0.0031786610905409434,
+    "categorical__province_Western Cape": 0.021369108326468225,
+    "categorical__submission_channel_USSD": 0.018247271742975545,
+    "categorical__submission_channel_branch": 0.0184387351654079,
+    "categorical__submission_channel_call_centre": 0.01855316652694371,
+    "categorical__submission_channel_mobile_app": 0.02007420462015024,
+    "categorical__submission_channel_web_portal": 0.020295826948692187,
+    "categorical__tracking_device_installed_False": 0.016282443359266895,
+    "categorical__tracking_device_installed_True": 0.01680076640760071,
+    "numeric__claim_amount": 0.26904525228953613,
+    "numeric__policyholder_tenure_months": 0.1686566144661197,
+    "numeric__prior_claims_count": 0.039274827009782846,
+    "numeric__vehicle_age_years": 0.1295775475350576
+  },
+  "test_rows": 2000,
+  "training_date": "2026-10-27T12:34:04.957337+00:00",
+  "training_rows": 8000,
+  "version": "1.0.0"
+}

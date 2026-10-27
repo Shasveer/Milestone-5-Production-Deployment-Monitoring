@@ -1,0 +1,664 @@
+claim_id,investigator_id,fraud_confirmed,investigation_date,fraud_type,recovered_amount_zar,investigation_notes
+SA-2023-57605,INV-478,True,2023-05-25,staged_accident,724.57,Multiple inconsistencies in claim narrative
+SA-2023-83509,INV-485,True,2024-01-21,staged_accident,31658.28,Multiple inconsistencies in claim narrative
+SA-2023-16645,INV-510,True,2023-04-23,staged_accident,169685.24,Claimant history shows pattern of similar claims
+SA-2023-99399,INV-833,True,2023-10-16,inflated_claim,861.73,Third-party witness statement conflicts
+SA-2023-93560,INV-713,True,2023-11-19,inflated_claim,12748.56,Multiple inconsistencies in claim narrative
+SA-2023-38541,INV-821,True,2023-08-24,staged_accident,79946.62,Third-party witness statement conflicts
+SA-2023-17710,INV-560,True,2024-08-18,false_theft,25345.03,Third-party witness statement conflicts
+SA-2023-89676,INV-282,True,2024-11-06,identity_fraud,33474.63,Vehicle tracking data contradicts claim timeline
+SA-2023-64312,INV-829,True,2023-03-04,false_theft,128463.7,Vehicle tracking data contradicts claim timeline
+SA-2023-11140,INV-821,True,2023-09-24,false_theft,24715.2,Multiple inconsistencies in claim narrative
+SA-2023-22866,INV-409,True,2023-03-06,inflated_claim,286.72,Third-party witness statement conflicts
+SA-2023-98454,INV-795,True,2024-09-06,inflated_claim,17641.45,Multiple inconsistencies in claim narrative
+SA-2023-74619,INV-158,True,2024-02-07,staged_accident,353.75,Vehicle tracking data contradicts claim timeline
+SA-2023-45179,INV-318,True,2024-07-23,staged_accident,21878.17,Third-party witness statement conflicts
+SA-2023-57111,INV-396,True,2024-12-02,staged_accident,88858.64,Multiple inconsistencies in claim narrative
+SA-2023-42006,INV-984,True,2024-12-03,false_theft,51783.88,Claimant history shows pattern of similar claims
+SA-2023-17797,INV-240,True,2023-06-04,staged_accident,3701.68,Claimant history shows pattern of similar claims
+SA-2023-94694,INV-939,True,2023-07-16,staged_accident,56322.2,Multiple inconsistencies in claim narrative
+SA-2023-89823,INV-360,True,2024-03-07,identity_fraud,47987.02,Claimant history shows pattern of similar claims
+SA-2023-24997,INV-256,True,2024-06-11,inflated_claim,2677.57,Claimant history shows pattern of similar claims
+SA-2023-24678,INV-104,True,2024-10-21,staged_accident,38359.03,Multiple inconsistencies in claim narrative
+SA-2023-41186,INV-159,True,2023-11-01,inflated_claim,4892.73,Vehicle tracking data contradicts claim timeline
+SA-2023-44409,INV-661,True,2024-04-16,inflated_claim,60547.81,Claimant history shows pattern of similar claims
+SA-2023-84160,INV-389,True,2023-02-28,staged_accident,33500.21,Third-party witness statement conflicts
+SA-2023-40373,INV-929,True,2023-06-20,false_theft,23784.51,Claimant history shows pattern of similar claims
+SA-2023-32486,INV-482,True,2023-07-17,staged_accident,1166.62,Claimant history shows pattern of similar claims
+SA-2023-86768,INV-615,True,2023-01-21,false_theft,15478.39,Vehicle tracking data contradicts claim timeline
+SA-2023-80309,INV-135,True,2023-06-08,staged_accident,51777.39,Claimant history shows pattern of similar claims
+SA-2023-75522,INV-424,True,2024-09-17,staged_accident,2006.0,Vehicle tracking data contradicts claim timeline
+SA-2023-31630,INV-269,True,2023-04-14,identity_fraud,87081.21,Claimant history shows pattern of similar claims
+SA-2023-36613,INV-138,True,2023-06-14,inflated_claim,5.49,Third-party witness statement conflicts
+SA-2023-19969,INV-637,True,2023-05-10,identity_fraud,82740.9,Third-party witness statement conflicts
+SA-2023-33396,INV-486,True,2024-04-12,inflated_claim,92507.71,Claimant history shows pattern of similar claims
+SA-2023-79754,INV-505,True,2023-12-15,staged_accident,8707.3,Multiple inconsistencies in claim narrative
+SA-2023-73027,INV-341,True,2024-10-11,inflated_claim,38585.94,Vehicle tracking data contradicts claim timeline
+SA-2023-76567,INV-686,True,2024-07-16,staged_accident,14642.01,Vehicle tracking data contradicts claim timeline
+SA-2023-70719,INV-639,True,2023-08-21,false_theft,13444.84,Multiple inconsistencies in claim narrative
+SA-2023-27045,INV-365,True,2023-08-31,inflated_claim,1115.04,Third-party witness statement conflicts
+SA-2023-29346,INV-306,True,2023-08-23,staged_accident,40761.37,Vehicle tracking data contradicts claim timeline
+SA-2023-49713,INV-260,True,2023-12-19,false_theft,311.93,Multiple inconsistencies in claim narrative
+SA-2023-77913,INV-377,True,2023-07-22,inflated_claim,53208.31,Vehicle tracking data contradicts claim timeline
+SA-2023-84092,INV-709,True,2024-04-28,staged_accident,47539.51,Vehicle tracking data contradicts claim timeline
+SA-2023-71344,INV-265,True,2023-10-04,inflated_claim,1230.49,Multiple inconsistencies in claim narrative
+SA-2023-38767,INV-129,True,2024-11-18,false_theft,150745.99,Vehicle tracking data contradicts claim timeline
+SA-2023-98666,INV-961,True,2023-09-05,identity_fraud,93323.33,Third-party witness statement conflicts
+SA-2023-36119,INV-628,True,2023-06-08,false_theft,640.07,Vehicle tracking data contradicts claim timeline
+SA-2023-46818,INV-599,True,2024-04-02,inflated_claim,18382.12,Vehicle tracking data contradicts claim timeline
+SA-2023-73083,INV-572,True,2023-06-10,staged_accident,43285.19,Multiple inconsistencies in claim narrative
+SA-2023-82725,INV-654,True,2023-05-12,staged_accident,101078.4,Third-party witness statement conflicts
+SA-2023-29416,INV-455,True,2023-12-27,staged_accident,28918.31,Third-party witness statement conflicts
+SA-2023-16457,INV-347,True,2024-08-28,identity_fraud,9540.73,Claimant history shows pattern of similar claims
+SA-2023-76600,INV-483,True,2024-11-07,false_theft,2592.66,Multiple inconsistencies in claim narrative
+SA-2023-40932,INV-644,True,2023-03-07,false_theft,73.53,Claimant history shows pattern of similar claims
+SA-2023-63243,INV-145,True,2024-03-19,staged_accident,9685.36,Vehicle tracking data contradicts claim timeline
+SA-2023-42780,INV-421,True,2024-06-19,inflated_claim,54086.51,Third-party witness statement conflicts
+SA-2023-92633,INV-148,True,2023-02-05,false_theft,19933.51,Multiple inconsistencies in claim narrative
+SA-2023-59192,INV-382,True,2023-11-05,inflated_claim,1475.53,Claimant history shows pattern of similar claims
+SA-2023-25784,INV-948,True,2024-12-11,staged_accident,1715.98,Claimant history shows pattern of similar claims
+SA-2023-40486,INV-691,True,2023-07-28,identity_fraud,65494.44,Claimant history shows pattern of similar claims
+SA-2023-48237,INV-434,True,2023-07-19,staged_accident,3256.29,Vehicle tracking data contradicts claim timeline
+SA-2023-66422,INV-776,True,2023-05-21,inflated_claim,35575.42,Multiple inconsistencies in claim narrative
+SA-2023-73805,INV-476,True,2023-08-01,staged_accident,47882.96,Third-party witness statement conflicts
+SA-2023-70587,INV-318,True,2023-12-26,identity_fraud,133894.5,Third-party witness statement conflicts
+SA-2023-11979,INV-874,True,2024-10-30,staged_accident,15131.31,Claimant history shows pattern of similar claims
+SA-2023-38273,INV-223,True,2024-03-25,false_theft,3101.22,Vehicle tracking data contradicts claim timeline
+SA-2023-66987,INV-378,True,2024-02-19,false_theft,26973.89,Third-party witness statement conflicts
+SA-2023-47693,INV-234,True,2024-11-28,staged_accident,96902.55,Third-party witness statement conflicts
+SA-2023-62540,INV-875,True,2024-10-17,staged_accident,25019.5,Multiple inconsistencies in claim narrative
+SA-2023-72995,INV-782,True,2024-09-22,inflated_claim,28373.56,Vehicle tracking data contradicts claim timeline
+SA-2023-87990,INV-434,True,2023-10-27,staged_accident,25307.17,Vehicle tracking data contradicts claim timeline
+SA-2023-28243,INV-354,True,2023-06-25,false_theft,232997.51,Third-party witness statement conflicts
+SA-2023-26959,INV-553,True,2023-07-18,inflated_claim,187898.31,Claimant history shows pattern of similar claims
+SA-2023-33664,INV-613,True,2024-10-12,false_theft,1865.53,Third-party witness statement conflicts
+SA-2023-25213,INV-463,True,2023-12-01,staged_accident,14962.89,Multiple inconsistencies in claim narrative
+SA-2023-70678,INV-815,True,2024-09-23,false_theft,34222.59,Claimant history shows pattern of similar claims
+SA-2023-82986,INV-991,True,2024-06-19,staged_accident,129244.46,Third-party witness statement conflicts
+SA-2023-13217,INV-821,True,2024-10-25,inflated_claim,86630.79,Claimant history shows pattern of similar claims
+SA-2023-91132,INV-916,True,2024-10-05,inflated_claim,42100.25,Claimant history shows pattern of similar claims
+SA-2023-35110,INV-475,True,2024-01-11,identity_fraud,584.11,Multiple inconsistencies in claim narrative
+SA-2023-39655,INV-816,True,2024-06-09,false_theft,17672.3,Vehicle tracking data contradicts claim timeline
+SA-2023-50894,INV-732,True,2023-07-29,false_theft,12571.56,Claimant history shows pattern of similar claims
+SA-2023-90635,INV-565,True,2023-03-15,identity_fraud,3258.61,Vehicle tracking data contradicts claim timeline
+SA-2023-71745,INV-420,True,2024-04-07,false_theft,164396.48,Claimant history shows pattern of similar claims
+SA-2023-50682,INV-330,True,2023-05-21,staged_accident,47357.68,Multiple inconsistencies in claim narrative
+SA-2023-83803,INV-186,True,2023-09-10,staged_accident,4721.97,Third-party witness statement conflicts
+SA-2023-75957,INV-957,True,2023-07-01,staged_accident,4173.06,Multiple inconsistencies in claim narrative
+SA-2023-32416,INV-294,True,2023-08-27,false_theft,219452.36,Vehicle tracking data contradicts claim timeline
+SA-2023-15678,INV-475,True,2023-12-25,staged_accident,5138.82,Claimant history shows pattern of similar claims
+SA-2023-11376,INV-434,True,2024-11-04,inflated_claim,426.41,Vehicle tracking data contradicts claim timeline
+SA-2023-56993,INV-872,True,2023-08-26,false_theft,53844.46,Claimant history shows pattern of similar claims
+SA-2023-23490,INV-895,True,2023-07-16,false_theft,4359.83,Vehicle tracking data contradicts claim timeline
+SA-2023-35380,INV-962,True,2024-04-06,inflated_claim,7377.0,Claimant history shows pattern of similar claims
+SA-2023-17203,INV-575,True,2024-01-16,false_theft,57509.8,Third-party witness statement conflicts
+SA-2023-46759,INV-225,True,2023-03-21,inflated_claim,9996.29,Claimant history shows pattern of similar claims
+SA-2023-25205,INV-232,True,2023-03-08,staged_accident,184.77,Third-party witness statement conflicts
+SA-2023-84366,INV-888,True,2024-11-25,staged_accident,106122.49,Third-party witness statement conflicts
+SA-2023-57683,INV-561,True,2023-11-09,staged_accident,71640.39,Claimant history shows pattern of similar claims
+SA-2023-99418,INV-742,True,2023-10-19,inflated_claim,52872.14,Third-party witness statement conflicts
+SA-2023-53869,INV-751,True,2024-03-06,false_theft,5554.59,Claimant history shows pattern of similar claims
+SA-2023-35169,INV-116,True,2024-12-04,inflated_claim,9959.16,Multiple inconsistencies in claim narrative
+SA-2023-93295,INV-824,True,2024-06-24,inflated_claim,27.99,Multiple inconsistencies in claim narrative
+SA-2023-65084,INV-579,True,2023-04-28,inflated_claim,25019.43,Multiple inconsistencies in claim narrative
+SA-2023-71336,INV-817,True,2024-11-12,inflated_claim,61041.97,Multiple inconsistencies in claim narrative
+SA-2023-96281,INV-555,True,2023-07-25,inflated_claim,11416.72,Claimant history shows pattern of similar claims
+SA-2023-92506,INV-672,True,2024-08-04,identity_fraud,1112.14,Vehicle tracking data contradicts claim timeline
+SA-2023-31214,INV-617,True,2023-12-05,identity_fraud,23402.6,Vehicle tracking data contradicts claim timeline
+SA-2023-55181,INV-996,True,2023-12-25,inflated_claim,1585.76,Claimant history shows pattern of similar claims
+SA-2023-15490,INV-134,True,2023-08-04,inflated_claim,45955.1,Multiple inconsistencies in claim narrative
+SA-2023-92632,INV-628,True,2024-08-06,false_theft,147865.14,Multiple inconsistencies in claim narrative
+SA-2023-34955,INV-422,True,2024-11-22,identity_fraud,17721.94,Claimant history shows pattern of similar claims
+SA-2023-56578,INV-429,True,2024-05-25,false_theft,69691.26,Vehicle tracking data contradicts claim timeline
+SA-2023-31557,INV-355,True,2023-03-08,identity_fraud,88677.69,Vehicle tracking data contradicts claim timeline
+SA-2023-95036,INV-656,True,2024-07-11,inflated_claim,88205.19,Vehicle tracking data contradicts claim timeline
+SA-2023-83811,INV-526,True,2023-04-04,inflated_claim,315333.39,Claimant history shows pattern of similar claims
+SA-2023-83895,INV-377,True,2024-04-15,identity_fraud,688.16,Claimant history shows pattern of similar claims
+SA-2023-99871,INV-541,True,2023-02-12,staged_accident,40210.78,Vehicle tracking data contradicts claim timeline
+SA-2023-44126,INV-793,True,2023-06-30,identity_fraud,2676.53,Claimant history shows pattern of similar claims
+SA-2023-37177,INV-944,True,2023-01-24,staged_accident,42722.69,Multiple inconsistencies in claim narrative
+SA-2023-95122,INV-649,True,2023-02-08,false_theft,364.01,Multiple inconsistencies in claim narrative
+SA-2023-62713,INV-942,True,2023-02-08,false_theft,11404.4,Third-party witness statement conflicts
+SA-2023-22923,INV-281,True,2023-06-02,false_theft,10502.24,Vehicle tracking data contradicts claim timeline
+SA-2023-97463,INV-984,True,2023-09-09,inflated_claim,178298.74,Third-party witness statement conflicts
+SA-2023-71616,INV-467,True,2023-03-25,inflated_claim,117064.5,Third-party witness statement conflicts
+SA-2023-42122,INV-605,True,2023-08-06,identity_fraud,40394.72,Claimant history shows pattern of similar claims
+SA-2023-72910,INV-181,True,2023-05-24,staged_accident,28017.79,Claimant history shows pattern of similar claims
+SA-2023-92863,INV-879,True,2023-03-02,staged_accident,374675.09,Third-party witness statement conflicts
+SA-2023-23014,INV-862,True,2023-08-31,false_theft,164932.84,Claimant history shows pattern of similar claims
+SA-2023-91314,INV-656,True,2024-04-12,identity_fraud,58971.54,Third-party witness statement conflicts
+SA-2023-16581,INV-664,True,2023-09-13,identity_fraud,680.21,Multiple inconsistencies in claim narrative
+SA-2023-87167,INV-455,True,2024-11-28,identity_fraud,3995.19,Vehicle tracking data contradicts claim timeline
+SA-2023-48216,INV-281,True,2023-02-16,identity_fraud,1078.26,Multiple inconsistencies in claim narrative
+SA-2023-82793,INV-112,True,2023-03-11,inflated_claim,37289.32,Third-party witness statement conflicts
+SA-2023-41543,INV-516,True,2024-04-22,inflated_claim,4164.47,Third-party witness statement conflicts
+SA-2023-69383,INV-289,True,2023-01-06,identity_fraud,30636.88,Third-party witness statement conflicts
+SA-2023-44730,INV-937,True,2023-03-20,staged_accident,4519.3,Third-party witness statement conflicts
+SA-2023-55114,INV-309,True,2024-11-10,inflated_claim,27653.48,Vehicle tracking data contradicts claim timeline
+SA-2023-62118,INV-340,True,2023-10-16,staged_accident,465.8,Vehicle tracking data contradicts claim timeline
+SA-2023-57313,INV-580,True,2023-09-01,staged_accident,63551.46,Vehicle tracking data contradicts claim timeline
+SA-2023-73615,INV-315,True,2024-06-24,false_theft,24160.08,Multiple inconsistencies in claim narrative
+SA-2023-75834,INV-691,True,2023-01-21,inflated_claim,1142.29,Claimant history shows pattern of similar claims
+SA-2023-43857,INV-330,True,2024-04-27,inflated_claim,66962.82,Multiple inconsistencies in claim narrative
+SA-2023-13664,INV-271,True,2023-01-25,inflated_claim,73922.1,Vehicle tracking data contradicts claim timeline
+SA-2023-15696,INV-676,True,2023-10-08,false_theft,68638.92,Multiple inconsistencies in claim narrative
+SA-2023-58669,INV-597,True,2023-08-09,false_theft,109626.61,Multiple inconsistencies in claim narrative
+SA-2023-96059,INV-546,True,2023-04-17,identity_fraud,9643.32,Claimant history shows pattern of similar claims
+SA-2023-42398,INV-601,True,2024-03-23,staged_accident,1126173.87,Third-party witness statement conflicts
+SA-2023-57652,INV-802,True,2024-04-23,staged_accident,28120.42,Third-party witness statement conflicts
+SA-2023-84460,INV-133,True,2023-08-15,inflated_claim,256052.61,Third-party witness statement conflicts
+SA-2023-28688,INV-965,True,2023-04-18,staged_accident,14523.81,Third-party witness statement conflicts
+SA-2023-16140,INV-132,True,2024-04-15,false_theft,8679.62,Claimant history shows pattern of similar claims
+SA-2023-46342,INV-313,True,2023-02-13,staged_accident,5560.65,Claimant history shows pattern of similar claims
+SA-2024-63664,INV-436,True,2024-04-28,false_theft,3974.13,Third-party witness statement conflicts
+SA-2024-31677,INV-358,True,2023-07-16,inflated_claim,2772.61,Vehicle tracking data contradicts claim timeline
+SA-2024-26114,INV-867,True,2024-11-23,staged_accident,855609.43,Multiple inconsistencies in claim narrative
+SA-2024-20552,INV-750,True,2023-06-03,staged_accident,2780.13,Multiple inconsistencies in claim narrative
+SA-2024-52150,INV-867,True,2024-12-03,staged_accident,89278.32,Vehicle tracking data contradicts claim timeline
+SA-2024-61854,INV-860,True,2024-09-12,staged_accident,5384.01,Vehicle tracking data contradicts claim timeline
+SA-2024-27272,INV-891,True,2023-05-30,identity_fraud,19496.96,Vehicle tracking data contradicts claim timeline
+SA-2024-59188,INV-168,True,2024-02-25,inflated_claim,972.49,Multiple inconsistencies in claim narrative
+SA-2024-59989,INV-387,True,2023-12-31,staged_accident,10340.69,Vehicle tracking data contradicts claim timeline
+SA-2024-91290,INV-112,True,2023-11-26,inflated_claim,2698.39,Third-party witness statement conflicts
+SA-2024-51504,INV-393,True,2023-02-27,staged_accident,28555.64,Third-party witness statement conflicts
+SA-2024-94122,INV-273,True,2023-09-28,staged_accident,99776.02,Vehicle tracking data contradicts claim timeline
+SA-2024-51150,INV-392,True,2023-08-03,inflated_claim,1343.7,Multiple inconsistencies in claim narrative
+SA-2024-82633,INV-840,True,2023-03-17,inflated_claim,263.67,Vehicle tracking data contradicts claim timeline
+SA-2024-21924,INV-300,True,2024-06-04,false_theft,39862.43,Claimant history shows pattern of similar claims
+SA-2024-15971,INV-551,True,2023-01-19,staged_accident,5664.79,Multiple inconsistencies in claim narrative
+SA-2024-56516,INV-983,True,2023-07-15,identity_fraud,162.91,Third-party witness statement conflicts
+SA-2024-16599,INV-356,True,2023-10-21,false_theft,5945.43,Third-party witness statement conflicts
+SA-2024-70010,INV-817,True,2023-10-19,staged_accident,2297.79,Claimant history shows pattern of similar claims
+SA-2024-93495,INV-257,True,2023-12-26,staged_accident,11191.68,Third-party witness statement conflicts
+SA-2024-13834,INV-785,True,2024-01-17,identity_fraud,2353.71,Claimant history shows pattern of similar claims
+SA-2024-24877,INV-503,True,2024-07-14,staged_accident,89617.27,Multiple inconsistencies in claim narrative
+SA-2024-63641,INV-221,True,2024-06-22,staged_accident,104669.74,Vehicle tracking data contradicts claim timeline
+SA-2024-27763,INV-534,True,2024-04-04,identity_fraud,25901.9,Vehicle tracking data contradicts claim timeline
+SA-2024-92754,INV-239,True,2024-09-15,staged_accident,4568.34,Claimant history shows pattern of similar claims
+SA-2024-61486,INV-542,True,2024-01-30,inflated_claim,16570.72,Claimant history shows pattern of similar claims
+SA-2024-33634,INV-609,True,2023-09-14,false_theft,117746.51,Multiple inconsistencies in claim narrative
+SA-2024-16147,INV-903,True,2024-06-25,inflated_claim,9193.39,Multiple inconsistencies in claim narrative
+SA-2024-48840,INV-169,True,2023-03-13,false_theft,919.73,Claimant history shows pattern of similar claims
+SA-2024-64117,INV-982,True,2024-12-05,inflated_claim,27034.7,Multiple inconsistencies in claim narrative
+SA-2024-33151,INV-633,True,2024-11-07,staged_accident,51636.92,Claimant history shows pattern of similar claims
+SA-2024-83451,INV-350,True,2023-12-19,inflated_claim,2473.75,Vehicle tracking data contradicts claim timeline
+SA-2024-74870,INV-646,True,2023-09-09,identity_fraud,21289.02,Vehicle tracking data contradicts claim timeline
+SA-2024-24250,INV-868,True,2024-02-13,staged_accident,2495.05,Claimant history shows pattern of similar claims
+SA-2024-20458,INV-959,True,2023-07-27,staged_accident,9.72,Claimant history shows pattern of similar claims
+SA-2024-72005,INV-554,True,2023-06-30,staged_accident,164402.74,Third-party witness statement conflicts
+SA-2024-81983,INV-997,True,2024-05-15,identity_fraud,1056.4,Vehicle tracking data contradicts claim timeline
+SA-2024-12269,INV-145,True,2024-09-07,staged_accident,314.17,Claimant history shows pattern of similar claims
+SA-2024-13311,INV-610,True,2024-09-26,identity_fraud,24623.06,Claimant history shows pattern of similar claims
+SA-2024-57611,INV-945,True,2023-04-23,false_theft,8726.18,Claimant history shows pattern of similar claims
+SA-2024-53441,INV-574,True,2024-05-10,staged_accident,541.23,Multiple inconsistencies in claim narrative
+SA-2024-30368,INV-390,True,2024-10-15,inflated_claim,1830.36,Claimant history shows pattern of similar claims
+SA-2024-18143,INV-103,True,2023-06-03,inflated_claim,3785.86,Multiple inconsistencies in claim narrative
+SA-2024-12698,INV-228,True,2024-04-28,staged_accident,2780.25,Multiple inconsistencies in claim narrative
+SA-2024-45110,INV-930,True,2024-05-14,false_theft,8713.83,Claimant history shows pattern of similar claims
+SA-2024-88580,INV-321,True,2023-10-18,staged_accident,40937.2,Multiple inconsistencies in claim narrative
+SA-2024-99116,INV-980,True,2024-08-27,inflated_claim,75319.12,Claimant history shows pattern of similar claims
+SA-2024-64529,INV-122,True,2024-09-16,staged_accident,82726.46,Multiple inconsistencies in claim narrative
+SA-2024-27987,INV-539,True,2024-03-19,inflated_claim,194029.04,Multiple inconsistencies in claim narrative
+SA-2024-54815,INV-855,True,2024-11-11,inflated_claim,3394.1,Vehicle tracking data contradicts claim timeline
+SA-2024-34729,INV-461,True,2023-04-04,false_theft,600.04,Third-party witness statement conflicts
+SA-2024-10346,INV-928,True,2024-11-06,staged_accident,13174.62,Claimant history shows pattern of similar claims
+SA-2024-78104,INV-211,True,2024-12-25,inflated_claim,55040.13,Third-party witness statement conflicts
+SA-2024-90806,INV-818,True,2024-02-01,inflated_claim,5191.19,Multiple inconsistencies in claim narrative
+SA-2024-98332,INV-121,True,2023-03-25,inflated_claim,148319.52,Claimant history shows pattern of similar claims
+SA-2024-25255,INV-113,True,2023-10-21,staged_accident,122835.47,Multiple inconsistencies in claim narrative
+SA-2024-50956,INV-551,True,2023-12-15,inflated_claim,4897.16,Third-party witness statement conflicts
+SA-2024-98859,INV-479,True,2023-08-18,inflated_claim,13415.76,Vehicle tracking data contradicts claim timeline
+SA-2024-40150,INV-901,True,2024-12-27,inflated_claim,50224.1,Claimant history shows pattern of similar claims
+SA-2024-93339,INV-296,True,2023-07-04,staged_accident,4261.15,Multiple inconsistencies in claim narrative
+SA-2024-76924,INV-732,True,2023-11-14,inflated_claim,320078.13,Vehicle tracking data contradicts claim timeline
+SA-2024-85596,INV-779,True,2024-09-24,identity_fraud,61704.78,Claimant history shows pattern of similar claims
+SA-2024-26010,INV-915,True,2024-06-27,inflated_claim,23047.86,Vehicle tracking data contradicts claim timeline
+SA-2024-61756,INV-228,True,2023-04-09,inflated_claim,29113.52,Third-party witness statement conflicts
+SA-2024-79800,INV-454,True,2023-11-13,staged_accident,108725.8,Third-party witness statement conflicts
+SA-2024-84931,INV-309,True,2024-08-27,false_theft,67778.1,Multiple inconsistencies in claim narrative
+SA-2024-36023,INV-121,True,2023-08-01,false_theft,59734.59,Multiple inconsistencies in claim narrative
+SA-2024-87828,INV-242,True,2024-09-15,inflated_claim,232994.6,Multiple inconsistencies in claim narrative
+SA-2024-42839,INV-778,True,2024-05-13,staged_accident,27477.94,Claimant history shows pattern of similar claims
+SA-2024-88694,INV-399,True,2024-08-13,staged_accident,258282.0,Third-party witness statement conflicts
+SA-2024-81385,INV-411,True,2024-05-22,identity_fraud,27912.83,Vehicle tracking data contradicts claim timeline
+SA-2024-28434,INV-185,True,2023-11-27,inflated_claim,11435.79,Multiple inconsistencies in claim narrative
+SA-2024-32882,INV-682,True,2023-07-21,inflated_claim,11665.34,Claimant history shows pattern of similar claims
+SA-2024-94235,INV-908,True,2023-04-01,identity_fraud,24774.2,Third-party witness statement conflicts
+SA-2024-86774,INV-786,True,2023-04-24,staged_accident,1946.11,Third-party witness statement conflicts
+SA-2024-44862,INV-742,True,2023-05-22,identity_fraud,53691.69,Vehicle tracking data contradicts claim timeline
+SA-2024-60091,INV-172,True,2023-08-01,identity_fraud,122962.33,Claimant history shows pattern of similar claims
+SA-2024-38358,INV-626,True,2024-12-04,staged_accident,947.79,Multiple inconsistencies in claim narrative
+SA-2024-62804,INV-201,True,2023-03-04,staged_accident,5038.85,Vehicle tracking data contradicts claim timeline
+SA-2024-45526,INV-849,True,2023-12-01,identity_fraud,21651.32,Third-party witness statement conflicts
+SA-2024-76035,INV-857,True,2023-09-22,staged_accident,43067.12,Third-party witness statement conflicts
+SA-2024-56106,INV-124,True,2023-10-18,staged_accident,1620.36,Third-party witness statement conflicts
+SA-2024-54034,INV-768,True,2023-11-25,inflated_claim,5465.13,Third-party witness statement conflicts
+SA-2024-43012,INV-240,True,2023-05-02,false_theft,5094.42,Multiple inconsistencies in claim narrative
+SA-2024-11039,INV-907,True,2024-05-21,identity_fraud,18946.47,Third-party witness statement conflicts
+SA-2024-65565,INV-899,True,2024-02-09,inflated_claim,13062.7,Multiple inconsistencies in claim narrative
+SA-2024-60492,INV-365,True,2024-09-23,staged_accident,13249.55,Claimant history shows pattern of similar claims
+SA-2024-33247,INV-385,True,2023-01-13,identity_fraud,949.2,Third-party witness statement conflicts
+SA-2024-93233,INV-581,True,2023-08-09,false_theft,6601.57,Claimant history shows pattern of similar claims
+SA-2024-82669,INV-512,True,2024-02-19,staged_accident,58982.95,Vehicle tracking data contradicts claim timeline
+SA-2024-38705,INV-441,True,2023-12-10,inflated_claim,2590.33,Third-party witness statement conflicts
+SA-2024-66121,INV-305,True,2024-09-21,staged_accident,35133.28,Third-party witness statement conflicts
+SA-2024-64890,INV-826,True,2023-06-22,staged_accident,12609.0,Third-party witness statement conflicts
+SA-2024-54382,INV-519,True,2023-07-05,inflated_claim,984.07,Claimant history shows pattern of similar claims
+SA-2024-41087,INV-302,True,2023-07-16,identity_fraud,70238.44,Multiple inconsistencies in claim narrative
+SA-2024-60534,INV-943,True,2024-02-10,identity_fraud,33082.68,Claimant history shows pattern of similar claims
+SA-2024-71196,INV-273,True,2023-11-26,staged_accident,202577.7,Claimant history shows pattern of similar claims
+SA-2024-96683,INV-582,True,2023-09-19,identity_fraud,24778.85,Vehicle tracking data contradicts claim timeline
+SA-2024-21677,INV-830,True,2024-07-05,staged_accident,3125.43,Multiple inconsistencies in claim narrative
+SA-2024-59568,INV-727,True,2024-04-17,staged_accident,72038.13,Third-party witness statement conflicts
+SA-2024-93972,INV-434,True,2024-12-28,identity_fraud,182310.26,Vehicle tracking data contradicts claim timeline
+SA-2024-51121,INV-325,True,2023-08-23,false_theft,46869.68,Third-party witness statement conflicts
+SA-2024-90916,INV-112,True,2024-10-01,false_theft,36749.65,Claimant history shows pattern of similar claims
+SA-2024-57511,INV-888,True,2023-12-25,false_theft,13343.83,Third-party witness statement conflicts
+SA-2024-43795,INV-642,True,2023-07-06,false_theft,90302.29,Vehicle tracking data contradicts claim timeline
+SA-2024-83709,INV-116,True,2023-08-18,inflated_claim,60943.11,Vehicle tracking data contradicts claim timeline
+SA-2024-78204,INV-938,True,2024-09-29,staged_accident,62259.04,Vehicle tracking data contradicts claim timeline
+SA-2024-41883,INV-468,True,2024-07-23,identity_fraud,160861.07,Claimant history shows pattern of similar claims
+SA-2024-65808,INV-156,True,2023-07-22,false_theft,6900.83,Multiple inconsistencies in claim narrative
+SA-2024-59191,INV-983,True,2024-08-12,inflated_claim,15348.55,Multiple inconsistencies in claim narrative
+SA-2024-14566,INV-673,True,2024-03-14,staged_accident,25030.02,Claimant history shows pattern of similar claims
+SA-2024-99509,INV-197,True,2024-11-25,false_theft,34360.41,Vehicle tracking data contradicts claim timeline
+SA-2024-91299,INV-771,True,2023-01-11,staged_accident,826.0,Multiple inconsistencies in claim narrative
+SA-2024-13075,INV-438,True,2024-09-21,staged_accident,12407.33,Multiple inconsistencies in claim narrative
+SA-2024-17775,INV-548,True,2024-12-28,inflated_claim,89597.28,Claimant history shows pattern of similar claims
+SA-2024-14826,INV-745,True,2023-10-02,false_theft,21856.1,Claimant history shows pattern of similar claims
+SA-2024-40797,INV-501,True,2024-01-20,staged_accident,31420.45,Multiple inconsistencies in claim narrative
+SA-2024-83184,INV-515,True,2023-08-31,inflated_claim,7563.16,Multiple inconsistencies in claim narrative
+SA-2024-80809,INV-609,True,2024-03-31,false_theft,1510.69,Multiple inconsistencies in claim narrative
+SA-2024-78384,INV-309,True,2024-12-29,identity_fraud,4097.7,Multiple inconsistencies in claim narrative
+SA-2024-66596,INV-641,True,2024-02-29,false_theft,550316.93,Vehicle tracking data contradicts claim timeline
+SA-2024-37325,INV-292,True,2023-01-04,identity_fraud,11739.92,Multiple inconsistencies in claim narrative
+SA-2024-14294,INV-883,True,2023-11-13,inflated_claim,60794.4,Claimant history shows pattern of similar claims
+SA-2024-93859,INV-355,True,2023-11-24,identity_fraud,988.74,Vehicle tracking data contradicts claim timeline
+SA-2024-33175,INV-143,True,2024-01-20,false_theft,106841.43,Third-party witness statement conflicts
+SA-2024-34522,INV-252,True,2023-09-05,inflated_claim,8601.76,Third-party witness statement conflicts
+SA-2024-72723,INV-553,True,2023-06-28,identity_fraud,123399.59,Claimant history shows pattern of similar claims
+SA-2024-16934,INV-465,True,2023-04-20,false_theft,671.72,Multiple inconsistencies in claim narrative
+SA-2025-21497,INV-247,True,2024-08-18,identity_fraud,122846.12,Third-party witness statement conflicts
+SA-2025-46527,INV-480,True,2024-09-07,inflated_claim,89978.21,Third-party witness statement conflicts
+SA-2025-94056,INV-113,True,2024-05-22,inflated_claim,22513.48,Multiple inconsistencies in claim narrative
+SA-2025-58113,INV-558,True,2024-12-08,staged_accident,21281.46,Vehicle tracking data contradicts claim timeline
+SA-2025-58096,INV-627,True,2023-05-24,identity_fraud,25102.83,Multiple inconsistencies in claim narrative
+SA-2025-21904,INV-892,True,2024-06-05,identity_fraud,2426.87,Third-party witness statement conflicts
+SA-2025-68445,INV-198,True,2024-12-09,identity_fraud,6452.79,Claimant history shows pattern of similar claims
+SA-2025-27163,INV-721,True,2023-09-18,inflated_claim,39481.47,Third-party witness statement conflicts
+SA-2025-64080,INV-993,True,2024-11-21,inflated_claim,153479.16,Claimant history shows pattern of similar claims
+SA-2025-37212,INV-624,True,2024-03-02,false_theft,1840.21,Claimant history shows pattern of similar claims
+SA-2025-64706,INV-468,True,2023-11-16,staged_accident,7360.86,Claimant history shows pattern of similar claims
+SA-2025-34832,INV-530,True,2023-06-29,staged_accident,109997.11,Multiple inconsistencies in claim narrative
+SA-2025-28933,INV-922,True,2023-08-24,staged_accident,92345.5,Third-party witness statement conflicts
+SA-2025-36849,INV-512,True,2024-02-25,identity_fraud,34054.75,Multiple inconsistencies in claim narrative
+SA-2025-33268,INV-165,True,2024-02-15,inflated_claim,938.43,Vehicle tracking data contradicts claim timeline
+SA-2025-56180,INV-597,True,2024-01-15,identity_fraud,287736.78,Claimant history shows pattern of similar claims
+SA-2025-91735,INV-430,True,2024-08-26,inflated_claim,45024.97,Multiple inconsistencies in claim narrative
+SA-2025-31704,INV-692,True,2024-11-06,inflated_claim,68338.43,Vehicle tracking data contradicts claim timeline
+SA-2025-14633,INV-665,True,2023-04-28,staged_accident,25558.98,Vehicle tracking data contradicts claim timeline
+SA-2025-67523,INV-604,True,2024-02-11,false_theft,56555.85,Multiple inconsistencies in claim narrative
+SA-2025-11166,INV-850,True,2023-03-11,false_theft,2211.85,Vehicle tracking data contradicts claim timeline
+SA-2025-32943,INV-288,True,2023-06-15,inflated_claim,109511.41,Third-party witness statement conflicts
+SA-2025-40219,INV-867,True,2023-02-06,false_theft,9399.3,Third-party witness statement conflicts
+SA-2025-63159,INV-859,True,2024-04-26,inflated_claim,71126.03,Claimant history shows pattern of similar claims
+SA-2025-76223,INV-399,True,2023-01-11,false_theft,4500.05,Multiple inconsistencies in claim narrative
+SA-2025-44792,INV-299,True,2024-02-04,staged_accident,25141.59,Third-party witness statement conflicts
+SA-2025-85052,INV-607,True,2023-06-27,staged_accident,3476.63,Claimant history shows pattern of similar claims
+SA-2025-46155,INV-324,True,2024-01-16,inflated_claim,113654.99,Third-party witness statement conflicts
+SA-2025-96646,INV-103,True,2023-07-29,false_theft,16329.5,Third-party witness statement conflicts
+SA-2025-16150,INV-255,True,2024-02-17,inflated_claim,382.02,Multiple inconsistencies in claim narrative
+SA-2025-38458,INV-833,True,2023-10-28,staged_accident,2115.87,Vehicle tracking data contradicts claim timeline
+SA-2025-47320,INV-182,True,2023-04-09,staged_accident,61090.8,Third-party witness statement conflicts
+SA-2025-20216,INV-768,True,2023-10-12,inflated_claim,790.93,Vehicle tracking data contradicts claim timeline
+SA-2025-25023,INV-878,True,2023-06-22,false_theft,187762.09,Claimant history shows pattern of similar claims
+SA-2025-14738,INV-255,True,2024-11-19,staged_accident,160201.88,Third-party witness statement conflicts
+SA-2025-75309,INV-844,True,2024-05-09,identity_fraud,19759.01,Third-party witness statement conflicts
+SA-2025-68285,INV-518,True,2023-02-27,staged_accident,18224.61,Claimant history shows pattern of similar claims
+SA-2025-81250,INV-682,True,2024-11-10,staged_accident,8118.33,Multiple inconsistencies in claim narrative
+SA-2025-71596,INV-731,True,2023-07-22,false_theft,24204.06,Third-party witness statement conflicts
+SA-2025-66309,INV-584,True,2023-03-18,identity_fraud,19959.7,Third-party witness statement conflicts
+SA-2025-77251,INV-219,True,2024-06-23,staged_accident,19601.37,Vehicle tracking data contradicts claim timeline
+SA-2025-25556,INV-496,True,2023-06-11,false_theft,282130.01,Claimant history shows pattern of similar claims
+SA-2025-20849,INV-419,True,2023-10-07,staged_accident,149638.91,Third-party witness statement conflicts
+SA-2025-94683,INV-775,True,2024-07-06,false_theft,29621.61,Claimant history shows pattern of similar claims
+SA-2025-10063,INV-926,True,2023-11-08,staged_accident,51874.89,Claimant history shows pattern of similar claims
+SA-2025-19464,INV-285,True,2024-01-23,false_theft,7840.38,Third-party witness statement conflicts
+SA-2025-63247,INV-761,True,2024-04-08,staged_accident,4584.54,Vehicle tracking data contradicts claim timeline
+SA-2025-39730,INV-922,True,2024-04-23,staged_accident,6847.81,Third-party witness statement conflicts
+SA-2025-14497,INV-793,True,2024-06-03,inflated_claim,80534.46,Vehicle tracking data contradicts claim timeline
+SA-2025-77814,INV-450,True,2024-06-09,inflated_claim,28220.87,Vehicle tracking data contradicts claim timeline
+SA-2025-69188,INV-669,True,2023-12-31,staged_accident,17049.35,Third-party witness statement conflicts
+SA-2025-10057,INV-584,True,2023-05-31,inflated_claim,1849.88,Claimant history shows pattern of similar claims
+SA-2025-37655,INV-872,True,2024-07-27,false_theft,179102.45,Vehicle tracking data contradicts claim timeline
+SA-2025-97453,INV-569,True,2024-05-30,inflated_claim,4787.58,Third-party witness statement conflicts
+SA-2025-53719,INV-539,True,2024-06-23,inflated_claim,21440.41,Third-party witness statement conflicts
+SA-2025-64126,INV-568,True,2023-12-26,staged_accident,34083.45,Vehicle tracking data contradicts claim timeline
+SA-2025-17201,INV-276,True,2024-05-21,identity_fraud,4489.97,Claimant history shows pattern of similar claims
+SA-2025-50866,INV-132,True,2024-07-06,staged_accident,4686.15,Multiple inconsistencies in claim narrative
+SA-2025-79387,INV-874,True,2023-02-09,staged_accident,70498.27,Vehicle tracking data contradicts claim timeline
+SA-2025-35123,INV-598,True,2024-05-08,staged_accident,27870.02,Vehicle tracking data contradicts claim timeline
+SA-2025-94675,INV-683,True,2024-10-17,staged_accident,85863.47,Claimant history shows pattern of similar claims
+SA-2025-83413,INV-760,True,2024-11-12,false_theft,26169.64,Vehicle tracking data contradicts claim timeline
+SA-2025-87081,INV-536,True,2023-09-28,staged_accident,59658.16,Vehicle tracking data contradicts claim timeline
+SA-2025-46414,INV-226,True,2024-09-08,staged_accident,5704.86,Third-party witness statement conflicts
+SA-2025-22990,INV-333,True,2023-04-18,false_theft,20592.48,Vehicle tracking data contradicts claim timeline
+SA-2025-42157,INV-898,True,2024-09-01,identity_fraud,19193.74,Vehicle tracking data contradicts claim timeline
+SA-2025-76322,INV-688,True,2024-05-16,identity_fraud,30892.34,Third-party witness statement conflicts
+SA-2025-85857,INV-573,True,2023-08-23,inflated_claim,7352.83,Claimant history shows pattern of similar claims
+SA-2025-71070,INV-874,True,2023-10-09,false_theft,21730.02,Vehicle tracking data contradicts claim timeline
+SA-2025-93580,INV-754,True,2024-04-06,false_theft,34504.12,Claimant history shows pattern of similar claims
+SA-2025-75588,INV-487,True,2023-07-28,false_theft,1164.95,Third-party witness statement conflicts
+SA-2025-66354,INV-755,True,2024-05-14,inflated_claim,675.6,Third-party witness statement conflicts
+SA-2025-79910,INV-786,True,2023-07-15,staged_accident,1591.06,Multiple inconsistencies in claim narrative
+SA-2025-47196,INV-213,True,2023-09-21,identity_fraud,22447.23,Vehicle tracking data contradicts claim timeline
+SA-2025-74561,INV-201,True,2023-07-15,false_theft,47372.23,Third-party witness statement conflicts
+SA-2025-16879,INV-720,True,2023-06-27,inflated_claim,172679.79,Third-party witness statement conflicts
+SA-2025-93252,INV-402,True,2023-10-09,inflated_claim,6857.98,Third-party witness statement conflicts
+SA-2025-99873,INV-383,True,2023-12-27,inflated_claim,2048.98,Third-party witness statement conflicts
+SA-2025-56590,INV-623,True,2024-12-12,inflated_claim,82001.12,Third-party witness statement conflicts
+SA-2025-27249,INV-752,True,2023-10-31,inflated_claim,63581.92,Multiple inconsistencies in claim narrative
+SA-2025-96015,INV-560,True,2023-05-12,inflated_claim,33951.33,Third-party witness statement conflicts
+SA-2025-77352,INV-894,True,2023-08-17,false_theft,40515.24,Third-party witness statement conflicts
+SA-2025-20228,INV-693,True,2023-10-28,false_theft,27387.7,Vehicle tracking data contradicts claim timeline
+SA-2025-70884,INV-309,True,2024-02-05,staged_accident,54129.92,Claimant history shows pattern of similar claims
+SA-2025-20615,INV-486,True,2024-02-19,identity_fraud,263362.65,Claimant history shows pattern of similar claims
+SA-2025-27194,INV-719,True,2024-03-10,staged_accident,16925.07,Third-party witness statement conflicts
+SA-2025-61828,INV-529,True,2024-04-13,staged_accident,61076.06,Third-party witness statement conflicts
+SA-2025-78544,INV-859,True,2024-10-05,staged_accident,114031.42,Multiple inconsistencies in claim narrative
+SA-2025-79196,INV-372,True,2024-08-14,identity_fraud,85333.16,Claimant history shows pattern of similar claims
+SA-2025-92764,INV-675,True,2024-02-19,identity_fraud,18503.74,Claimant history shows pattern of similar claims
+SA-2025-54184,INV-501,True,2023-02-26,false_theft,37663.13,Multiple inconsistencies in claim narrative
+SA-2025-31882,INV-777,True,2024-04-14,inflated_claim,35454.12,Vehicle tracking data contradicts claim timeline
+SA-2025-82078,INV-196,True,2024-06-02,identity_fraud,213142.12,Third-party witness statement conflicts
+SA-2025-97049,INV-431,True,2024-12-22,staged_accident,1718.43,Claimant history shows pattern of similar claims
+SA-2025-26158,INV-893,True,2023-07-19,identity_fraud,4241.32,Third-party witness statement conflicts
+SA-2025-11699,INV-534,True,2024-10-13,staged_accident,14413.34,Multiple inconsistencies in claim narrative
+SA-2025-42498,INV-820,True,2023-10-15,staged_accident,63150.72,Multiple inconsistencies in claim narrative
+SA-2025-41939,INV-430,True,2023-06-29,identity_fraud,30091.07,Vehicle tracking data contradicts claim timeline
+SA-2025-57538,INV-119,True,2024-12-30,identity_fraud,1732.1,Claimant history shows pattern of similar claims
+SA-2025-69972,INV-868,True,2023-08-06,identity_fraud,32948.23,Multiple inconsistencies in claim narrative
+SA-2025-42761,INV-589,True,2024-05-12,false_theft,83634.62,Multiple inconsistencies in claim narrative
+SA-2025-80017,INV-634,True,2023-04-19,staged_accident,35851.58,Third-party witness statement conflicts
+SA-2025-93808,INV-337,True,2023-08-09,staged_accident,20879.68,Third-party witness statement conflicts
+SA-2025-97025,INV-819,True,2023-10-16,staged_accident,3470.06,Claimant history shows pattern of similar claims
+SA-2025-79856,INV-901,True,2024-10-24,inflated_claim,54806.93,Vehicle tracking data contradicts claim timeline
+SA-2025-31205,INV-457,True,2024-01-13,staged_accident,31261.42,Claimant history shows pattern of similar claims
+SA-2025-40269,INV-971,True,2023-06-09,staged_accident,4783.99,Multiple inconsistencies in claim narrative
+SA-2025-27624,INV-118,True,2023-08-31,identity_fraud,92164.49,Multiple inconsistencies in claim narrative
+SA-2025-83067,INV-420,True,2023-08-26,staged_accident,20032.2,Claimant history shows pattern of similar claims
+SA-2025-98528,INV-336,True,2024-01-09,inflated_claim,14352.04,Claimant history shows pattern of similar claims
+SA-2025-12204,INV-911,True,2023-11-23,staged_accident,75665.56,Vehicle tracking data contradicts claim timeline
+SA-2025-41721,INV-547,True,2024-10-18,inflated_claim,54483.32,Vehicle tracking data contradicts claim timeline
+SA-2025-13036,INV-814,True,2024-06-28,inflated_claim,1589.88,Multiple inconsistencies in claim narrative
+SA-2025-14351,INV-276,True,2024-09-24,staged_accident,3413.57,Claimant history shows pattern of similar claims
+SA-2025-52163,INV-240,True,2023-10-04,inflated_claim,54601.88,Vehicle tracking data contradicts claim timeline
+SA-2025-22457,INV-367,True,2023-10-09,staged_accident,7612.04,Third-party witness statement conflicts
+SA-2025-62174,INV-593,True,2024-02-03,inflated_claim,18035.88,Third-party witness statement conflicts
+SA-2025-93122,INV-712,True,2024-06-27,staged_accident,42424.13,Multiple inconsistencies in claim narrative
+SA-2025-77262,INV-294,True,2023-03-23,staged_accident,15635.76,Multiple inconsistencies in claim narrative
+SA-2025-47667,INV-595,True,2023-08-12,false_theft,1135.41,Third-party witness statement conflicts
+SA-2025-42489,INV-325,True,2023-09-16,identity_fraud,3872.87,Claimant history shows pattern of similar claims
+SA-2025-43144,INV-110,True,2024-12-09,staged_accident,16632.5,Vehicle tracking data contradicts claim timeline
+SA-2025-91700,INV-299,True,2023-05-13,staged_accident,4828.72,Third-party witness statement conflicts
+SA-2025-27958,INV-488,True,2024-12-26,false_theft,62010.98,Multiple inconsistencies in claim narrative
+SA-2025-60778,INV-452,True,2024-04-19,staged_accident,69997.13,Multiple inconsistencies in claim narrative
+SA-2025-30030,INV-702,True,2023-05-11,identity_fraud,74214.76,Third-party witness statement conflicts
+SA-2025-75982,INV-135,True,2024-06-09,staged_accident,232623.91,Vehicle tracking data contradicts claim timeline
+SA-2025-32930,INV-749,True,2023-07-19,false_theft,163765.9,Multiple inconsistencies in claim narrative
+SA-2025-13572,INV-363,True,2023-09-06,inflated_claim,612.54,Third-party witness statement conflicts
+SA-2025-47975,INV-686,True,2024-06-12,identity_fraud,10865.42,Multiple inconsistencies in claim narrative
+SA-2025-53398,INV-545,True,2024-09-28,staged_accident,14614.04,Vehicle tracking data contradicts claim timeline
+SA-2025-48134,INV-279,True,2023-12-19,false_theft,1370.26,Third-party witness statement conflicts
+SA-2025-47364,INV-252,True,2024-10-18,inflated_claim,130105.66,Vehicle tracking data contradicts claim timeline
+SA-2025-87178,INV-958,True,2024-06-18,false_theft,4592.74,Vehicle tracking data contradicts claim timeline
+SA-2025-99178,INV-743,True,2024-11-02,staged_accident,45410.1,Third-party witness statement conflicts
+SA-2025-16843,INV-838,True,2023-01-22,identity_fraud,37431.02,Third-party witness statement conflicts
+SA-2025-18874,INV-520,True,2024-11-15,staged_accident,228887.23,Multiple inconsistencies in claim narrative
+SA-2025-75805,INV-392,True,2023-08-02,staged_accident,34837.46,Claimant history shows pattern of similar claims
+SA-2025-82112,INV-738,True,2024-10-16,inflated_claim,74626.07,Third-party witness statement conflicts
+SA-2025-76215,INV-361,True,2024-01-31,inflated_claim,32006.18,Third-party witness statement conflicts
+SA-2026-35917,INV-721,True,2023-12-18,inflated_claim,26.64,Claimant history shows pattern of similar claims
+SA-2026-43851,INV-611,True,2023-06-17,staged_accident,78374.51,Claimant history shows pattern of similar claims
+SA-2026-27793,INV-172,True,2024-04-13,identity_fraud,20739.13,Multiple inconsistencies in claim narrative
+SA-2026-45128,INV-709,True,2023-03-27,staged_accident,20917.77,Vehicle tracking data contradicts claim timeline
+SA-2026-41617,INV-606,True,2023-08-09,false_theft,17484.72,Vehicle tracking data contradicts claim timeline
+SA-2026-33268,INV-132,True,2024-12-28,staged_accident,40049.46,Claimant history shows pattern of similar claims
+SA-2026-60512,INV-452,True,2023-10-11,identity_fraud,9027.03,Vehicle tracking data contradicts claim timeline
+SA-2026-88196,INV-796,True,2023-03-09,identity_fraud,2865.67,Claimant history shows pattern of similar claims
+SA-2026-39887,INV-586,True,2023-10-31,staged_accident,18250.79,Vehicle tracking data contradicts claim timeline
+SA-2026-47210,INV-208,True,2024-02-03,false_theft,79198.47,Claimant history shows pattern of similar claims
+SA-2026-29734,INV-942,True,2024-02-22,staged_accident,857.54,Third-party witness statement conflicts
+SA-2026-47916,INV-687,True,2024-11-07,inflated_claim,54911.98,Vehicle tracking data contradicts claim timeline
+SA-2026-17476,INV-383,True,2024-05-14,inflated_claim,121675.64,Claimant history shows pattern of similar claims
+SA-2026-54745,INV-831,True,2023-10-14,inflated_claim,13751.91,Multiple inconsistencies in claim narrative
+SA-2026-72860,INV-490,True,2023-12-17,inflated_claim,86468.17,Multiple inconsistencies in claim narrative
+SA-2026-56726,INV-931,True,2024-03-04,staged_accident,43297.89,Vehicle tracking data contradicts claim timeline
+SA-2026-24057,INV-152,True,2024-05-05,inflated_claim,20726.93,Claimant history shows pattern of similar claims
+SA-2026-14544,INV-993,True,2023-08-03,staged_accident,8195.09,Claimant history shows pattern of similar claims
+SA-2026-96943,INV-356,True,2023-06-02,inflated_claim,132213.81,Multiple inconsistencies in claim narrative
+SA-2026-18012,INV-840,True,2024-08-28,inflated_claim,62612.54,Claimant history shows pattern of similar claims
+SA-2026-52511,INV-833,True,2023-08-02,false_theft,65527.38,Vehicle tracking data contradicts claim timeline
+SA-2026-43529,INV-522,True,2024-06-07,identity_fraud,23406.07,Claimant history shows pattern of similar claims
+SA-2026-12209,INV-714,True,2024-04-23,staged_accident,8426.14,Claimant history shows pattern of similar claims
+SA-2026-35173,INV-362,True,2024-05-02,identity_fraud,4736.33,Vehicle tracking data contradicts claim timeline
+SA-2026-12320,INV-827,True,2023-05-11,identity_fraud,7109.52,Multiple inconsistencies in claim narrative
+SA-2026-60999,INV-635,True,2023-01-22,staged_accident,52844.95,Multiple inconsistencies in claim narrative
+SA-2026-29419,INV-145,True,2023-01-06,identity_fraud,16886.39,Claimant history shows pattern of similar claims
+SA-2026-87428,INV-679,True,2024-03-01,inflated_claim,14752.43,Vehicle tracking data contradicts claim timeline
+SA-2026-46905,INV-635,True,2023-06-09,staged_accident,848.27,Third-party witness statement conflicts
+SA-2026-60110,INV-554,True,2024-12-04,identity_fraud,15479.55,Multiple inconsistencies in claim narrative
+SA-2026-91900,INV-123,True,2023-09-28,staged_accident,12582.25,Third-party witness statement conflicts
+SA-2026-94599,INV-390,True,2023-10-06,false_theft,1297.28,Third-party witness statement conflicts
+SA-2026-11506,INV-219,True,2024-06-24,staged_accident,48727.46,Third-party witness statement conflicts
+SA-2026-47088,INV-320,True,2024-06-21,false_theft,8171.65,Vehicle tracking data contradicts claim timeline
+SA-2026-85452,INV-734,True,2024-02-24,inflated_claim,27631.98,Vehicle tracking data contradicts claim timeline
+SA-2026-49838,INV-721,True,2024-11-25,identity_fraud,31674.69,Multiple inconsistencies in claim narrative
+SA-2026-67999,INV-408,True,2024-06-13,inflated_claim,15622.73,Third-party witness statement conflicts
+SA-2026-14288,INV-892,True,2023-03-24,staged_accident,66502.99,Claimant history shows pattern of similar claims
+SA-2026-26155,INV-935,True,2023-07-18,false_theft,37689.31,Multiple inconsistencies in claim narrative
+SA-2026-32416,INV-206,True,2024-01-10,false_theft,4204.37,Multiple inconsistencies in claim narrative
+SA-2026-28006,INV-101,True,2023-05-15,false_theft,108072.68,Claimant history shows pattern of similar claims
+SA-2026-28267,INV-248,True,2023-04-09,identity_fraud,54418.28,Vehicle tracking data contradicts claim timeline
+SA-2026-28625,INV-575,True,2024-10-27,false_theft,14862.45,Claimant history shows pattern of similar claims
+SA-2026-91272,INV-681,True,2023-05-31,inflated_claim,36050.44,Vehicle tracking data contradicts claim timeline
+SA-2023-89149,INV-949,False,2023-08-20,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-25860,INV-395,False,2024-12-07,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-57953,INV-721,False,2024-09-13,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-90480,INV-268,False,2023-02-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-32362,INV-315,False,2024-09-02,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-99768,INV-895,False,2023-06-06,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-26239,INV-238,False,2024-06-17,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-87444,INV-721,False,2023-09-12,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-29585,INV-434,False,2023-12-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-87039,INV-738,False,2023-04-08,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-64827,INV-916,False,2024-10-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-17647,INV-559,False,2023-01-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-63059,INV-471,False,2023-01-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-59342,INV-175,False,2023-02-27,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-53051,INV-159,False,2023-06-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-45017,INV-617,False,2024-09-10,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-60243,INV-295,False,2023-03-10,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-34794,INV-416,False,2024-05-20,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-28079,INV-197,False,2024-10-28,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-94066,INV-879,False,2024-12-06,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-23031,INV-671,False,2024-02-05,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-18679,INV-774,False,2024-01-10,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-38087,INV-515,False,2024-01-10,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-31302,INV-473,False,2023-09-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-89654,INV-689,False,2023-06-09,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-58130,INV-358,False,2024-07-27,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-19638,INV-604,False,2023-12-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-26173,INV-770,False,2023-12-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-85425,INV-601,False,2024-10-27,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-73932,INV-660,False,2024-03-21,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-53858,INV-208,False,2024-05-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-26066,INV-779,False,2023-10-05,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-10148,INV-387,False,2024-09-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-45935,INV-662,False,2023-09-17,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-60302,INV-436,False,2023-10-04,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-73578,INV-764,False,2024-07-02,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-45631,INV-280,False,2024-08-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-47383,INV-893,False,2024-04-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-72926,INV-809,False,2024-05-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-96787,INV-271,False,2024-09-16,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-95760,INV-938,False,2024-01-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-64257,INV-976,False,2024-01-01,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-20195,INV-463,False,2024-08-06,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-14245,INV-560,False,2023-01-19,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-81347,INV-756,False,2024-03-03,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-29465,INV-111,False,2024-08-13,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-74589,INV-794,False,2024-03-16,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-45676,INV-665,False,2024-08-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-76470,INV-164,False,2023-02-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-66210,INV-820,False,2024-07-07,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-74579,INV-930,False,2024-04-15,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-90172,INV-845,False,2023-02-09,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-40279,INV-434,False,2024-10-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-37678,INV-819,False,2023-11-29,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-23853,INV-847,False,2023-01-09,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-30152,INV-395,False,2024-08-08,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-21539,INV-840,False,2024-05-19,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-91396,INV-268,False,2024-12-17,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-50610,INV-117,False,2023-01-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-47850,INV-398,False,2023-08-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-66066,INV-788,False,2024-07-08,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-46972,INV-312,False,2023-01-27,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-32529,INV-472,False,2024-08-12,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-56076,INV-575,False,2023-04-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-96277,INV-235,False,2023-05-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-23609,INV-500,False,2024-10-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-43358,INV-539,False,2024-05-21,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-33659,INV-644,False,2023-06-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-55835,INV-645,False,2024-06-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-78476,INV-800,False,2023-03-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-75539,INV-201,False,2023-01-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-60797,INV-119,False,2024-08-05,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-36937,INV-609,False,2024-02-17,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-96064,INV-758,False,2023-11-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-59178,INV-179,False,2024-04-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-58555,INV-764,False,2024-05-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-10122,INV-819,False,2024-08-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-57430,INV-351,False,2023-10-03,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-51089,INV-735,False,2024-08-31,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-15603,INV-909,False,2023-09-07,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-86559,INV-110,False,2024-06-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-99602,INV-813,False,2024-09-29,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-32220,INV-574,False,2023-05-28,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-52515,INV-761,False,2023-11-28,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-46152,INV-596,False,2023-06-17,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-82535,INV-568,False,2023-03-28,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-33725,INV-809,False,2024-06-08,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-12600,INV-595,False,2024-02-03,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-68056,INV-415,False,2023-08-15,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-41873,INV-609,False,2024-06-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-46123,INV-227,False,2024-10-10,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-60907,INV-726,False,2023-06-29,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-54191,INV-479,False,2023-04-11,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-20857,INV-656,False,2023-10-05,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-75019,INV-312,False,2024-04-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-84502,INV-685,False,2023-07-04,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-17981,INV-636,False,2024-12-19,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-55371,INV-879,False,2023-07-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-23280,INV-899,False,2024-04-08,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-47094,INV-770,False,2024-04-12,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-47607,INV-252,False,2024-02-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-94654,INV-891,False,2024-12-15,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-96818,INV-609,False,2023-12-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-59135,INV-313,False,2024-05-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-64915,INV-257,False,2023-01-11,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-28152,INV-779,False,2023-03-21,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-57999,INV-435,False,2023-04-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-82028,INV-991,False,2024-01-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-82624,INV-257,False,2024-09-21,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-81558,INV-322,False,2023-07-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-32166,INV-272,False,2023-02-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-38336,INV-884,False,2024-08-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-58591,INV-612,False,2023-08-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-65071,INV-900,False,2023-08-28,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-94460,INV-672,False,2023-04-07,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-29271,INV-750,False,2023-11-03,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-45974,INV-962,False,2024-02-09,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-36734,INV-229,False,2023-11-19,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-88466,INV-459,False,2023-03-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-15420,INV-933,False,2023-01-08,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-79080,INV-476,False,2024-12-06,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-33035,INV-821,False,2024-12-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-89648,INV-827,False,2024-11-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-81964,INV-674,False,2023-05-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-31998,INV-586,False,2024-06-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-37482,INV-214,False,2024-05-17,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-78234,INV-733,False,2024-11-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-98594,INV-558,False,2023-11-08,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-80305,INV-267,False,2024-05-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-22202,INV-437,False,2024-08-21,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-62427,INV-202,False,2024-10-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-33562,INV-935,False,2023-09-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-23650,INV-384,False,2023-08-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-38679,INV-513,False,2024-05-04,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-33870,INV-360,False,2023-07-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-25795,INV-853,False,2023-09-28,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-66953,INV-803,False,2023-05-02,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-57014,INV-550,False,2024-12-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-61398,INV-743,False,2023-07-22,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-10234,INV-277,False,2024-11-21,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-15427,INV-694,False,2023-05-04,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-85993,INV-404,False,2023-04-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-35975,INV-870,False,2023-05-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-26826,INV-473,False,2024-12-25,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-81460,INV-899,False,2023-03-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-98296,INV-144,False,2023-02-02,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-71178,INV-438,False,2023-01-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-66485,INV-823,False,2023-08-31,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-67394,INV-619,False,2024-05-05,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-33474,INV-193,False,2024-08-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-73074,INV-205,False,2024-07-23,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-62930,INV-652,False,2024-05-12,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-36928,INV-350,False,2023-04-12,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-94784,INV-373,False,2024-09-25,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-23102,INV-303,False,2023-05-15,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-92512,INV-817,False,2024-12-27,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-68935,INV-508,False,2024-12-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-54707,INV-163,False,2024-04-11,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-44318,INV-189,False,2024-03-16,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-75464,INV-413,False,2024-07-01,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-36014,INV-170,False,2024-10-07,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-52297,INV-994,False,2024-06-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-50698,INV-436,False,2024-11-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-59105,INV-851,False,2023-02-28,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-52381,INV-905,False,2023-04-02,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-66566,INV-539,False,2023-05-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-58073,INV-726,False,2023-11-14,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-67463,INV-499,False,2023-05-25,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-15491,INV-942,False,2023-11-30,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-29210,INV-477,False,2024-07-15,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-55821,INV-103,False,2023-07-10,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-47474,INV-298,False,2024-03-21,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-39691,INV-722,False,2023-05-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-23101,INV-342,False,2023-04-25,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-49384,INV-313,False,2023-05-31,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-83809,INV-637,False,2024-05-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-67838,INV-468,False,2023-09-07,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-90989,INV-860,False,2024-06-09,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-63116,INV-497,False,2024-01-12,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-87026,INV-594,False,2024-12-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-62389,INV-534,False,2023-02-28,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-79513,INV-826,False,2023-11-11,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-41998,INV-141,False,2024-12-24,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-31511,INV-580,False,2023-12-26,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-82183,INV-802,False,2024-09-07,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-52183,INV-910,False,2024-03-17,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-27169,INV-630,False,2023-04-17,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-25223,INV-953,False,2024-02-05,,0.0,No evidence of fraud found; claim legitimate
+SA-2026-52134,INV-311,False,2024-04-05,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-94344,INV-289,False,2023-11-20,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-57516,INV-248,False,2024-09-20,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-47699,INV-204,False,2023-05-18,,0.0,No evidence of fraud found; claim legitimate
+SA-2024-40087,INV-409,False,2024-09-08,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-64823,INV-176,False,2023-04-11,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-61860,INV-932,False,2024-07-10,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-57614,INV-446,False,2023-10-20,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-28356,INV-942,False,2023-03-13,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-28212,INV-484,False,2024-06-10,,0.0,No evidence of fraud found; claim legitimate
+SA-2025-35584,INV-656,False,2023-07-06,,0.0,No evidence of fraud found; claim legitimate
+SA-2023-37350,INV-995,False,2023-03-31,,0.0,No evidence of fraud found; claim legitimate
