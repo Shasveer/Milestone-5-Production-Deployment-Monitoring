@@ -2,7 +2,7 @@
 
 ## Registration and version control
 - Model version: `1.0.0`
-- Training timestamp (UTC): `2026-10-27T12:34:04.957337+00:00`
+- Training timestamp (UTC): `2026-10-27T12:57:40.878890+00:00`
 - Artifact: `khetha_artifacts/pipeline_v1.0.0.joblib`
 - Expected input features: 8
 - Environment lock: `environment_lock.json`
@@ -19,7 +19,7 @@
 
 ## SHAP and interpretability audit
 - Attribution source: `Random Forest feature-importance fallback; SHAP not installed`
-- Summary timestamp (UTC): `2026-10-27T12:34:05.102159+00:00`
+- Summary timestamp (UTC): `2026-10-27T12:57:41.019458+00:00`
 
 | Feature | Mean absolute SHAP / attribution |
 | --- | ---: |

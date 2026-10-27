@@ -92,7 +92,9 @@ The run creates `khetha_artifacts/` and writes:
 The generated lock captures the actual deployment environment; it does not
 install or upgrade packages at runtime. Promote the artifact and its matching
 metadata/lock together so the preprocessing contract cannot drift from the
-classifier.
+classifier. Sparse preprocessor output is converted to dense arrays before
+median imputation; the runner logs the estimated dense memory size, so assess
+that estimate before using this fallback with substantially larger datasets.
 
 ## Inference Contract
 
@@ -107,15 +109,18 @@ artifact, and returns a JSON-compatible record:
 ```
 
 `flag` applies the configured fraud probability threshold (default `0.65`),
-and `prob` is the positive-class probability. The wrapper records request
-latency for the health dashboard.
+and `prob` is the finite positive-class probability in the range `[0, 1]`.
+The wrapper rejects an absent positive class and records request latency for
+the health dashboard.
 
 ## Drift and Retraining
 
 `monitor_drift_and_trigger_retrain(current_batch_X, historical_X)` calculates
 PSI independently for every expected predictive feature. Numeric features use
 historical quantile bins; categorical and boolean features use the combined
-observed category support. Config defaults are PSI `0.15` and absolute F1
+observed category support, including unseen current categories. Constant
+numeric historical features use a narrow center bin so shifted values are
+visible. Config defaults are PSI `0.15` and absolute F1
 decay `0.05`, sourced from `config.json`. Pass `current_f1` and optionally
 `baseline_f1` to include performance decay in the same retraining decision.
 Every check receives a UTC timestamp and is appended to the drift log; a

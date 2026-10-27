@@ -84,6 +84,21 @@ def _local_preprocessor(X_train: pd.DataFrame) -> ColumnTransformer:
     )
 
 
+def _dense_for_median_imputation(encoded: Any) -> Any:
+    if not hasattr(encoded, "toarray"):
+        return encoded
+    estimated_bytes = (
+        int(encoded.shape[0])
+        * int(encoded.shape[1])
+        * np.dtype(encoded.dtype).itemsize
+    )
+    LOGGER.info(
+        "Densifying sparse encoded data for median imputation (estimated %.2f MiB)",
+        estimated_bytes / (1024 ** 2),
+    )
+    return encoded.toarray()
+
+
 def _local_feature_split(claims: pd.DataFrame):
     target_column = "fraud_label"
     if target_column not in claims.columns:
@@ -134,6 +149,8 @@ def _build_training_assets(root: Path = ROOT):
     )
     encoded_train = preprocessor.fit_transform(X_train, y_train)
     encoded_test = preprocessor.transform(X_test)
+    encoded_train = _dense_for_median_imputation(encoded_train)
+    encoded_test = _dense_for_median_imputation(encoded_test)
     imputer = SimpleImputer(strategy="median")
     encoded_train = imputer.fit_transform(encoded_train)
     encoded_test = imputer.transform(encoded_test)
@@ -391,10 +408,17 @@ class KhethaProductionDeployer:
         row = pd.DataFrame([{feature: raw_payload[feature] for feature in expected}], columns=expected)
         if not hasattr(cached_pipeline, "predict_proba"):
             raise TypeError("The serialized pipeline must implement predict_proba()")
-        probabilities = np.asarray(cached_pipeline.predict_proba(row))[0]
-        classes = list(getattr(cached_pipeline, "classes_", [0, 1]))
-        positive_index = classes.index(self.metadata.get("positive_class", 1)) if self.metadata.get("positive_class", 1) in classes else -1
-        probability = float(probabilities[positive_index])
+        probabilities = np.asarray(cached_pipeline.predict_proba(row))
+        classes = list(getattr(cached_pipeline, "classes_", []))
+        if probabilities.ndim != 2 or probabilities.shape != (1, len(classes)):
+            raise ValueError("The serialized pipeline returned an invalid probability matrix")
+        positive_class = self.metadata.get("positive_class", 1)
+        if positive_class not in classes:
+            raise ValueError(f"Positive class {positive_class!r} is not present in the model classes")
+        positive_index = classes.index(positive_class)
+        probability = float(probabilities[0, positive_index])
+        if not np.isfinite(probability) or not 0.0 <= probability <= 1.0:
+            raise ValueError("The serialized pipeline returned a non-finite or out-of-range probability")
         threshold = float(self.metadata.get("decision_threshold", 0.65))
         result = {"flag": int(probability >= threshold), "prob": probability, "version": self.active_version}
         self.latency_history.append((time.perf_counter() - start_time) * 1000.0)
@@ -418,7 +442,8 @@ class KhethaProductionDeployer:
             edges = np.unique(np.quantile(expected_values, np.linspace(0.0, 1.0, 11)))
             if len(edges) < 2:
                 center = float(edges[0])
-                edges = np.array([-np.inf, center, np.inf])
+                margin = max(abs(center) * 1e-6, 1e-6)
+                edges = np.array([-np.inf, center - margin, center + margin, np.inf])
             else:
                 edges[0], edges[-1] = -np.inf, np.inf
             expected_counts = np.histogram(expected_values, bins=edges)[0].astype(float)
@@ -463,7 +488,11 @@ class KhethaProductionDeployer:
         baseline = float(baseline_f1 if baseline_f1 is not None else metrics.get("f1", 0.0))
         latest = float(current_f1) if current_f1 is not None else baseline
         f1_drop = max(0.0, baseline - latest)
-        retrain = any(drift_flags.values()) or f1_drop >= float(self.drift_thresholds.get("f1_drop", 0.05))
+        f1_limit = float(self.drift_thresholds.get("f1_drop", 0.05))
+        f1_threshold_reached = f1_drop >= f1_limit or np.isclose(
+            f1_drop, f1_limit, rtol=1e-9, atol=1e-12
+        )
+        retrain = any(drift_flags.values()) or f1_threshold_reached
         event = {
             "timestamp": _utc_now(),
             "version": self.active_version,
