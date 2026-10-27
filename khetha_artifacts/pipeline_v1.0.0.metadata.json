@@ -63,7 +63,7 @@
   ],
   "positive_class": 1,
   "retraining_log": [],
-  "serialized_at": "2026-10-27T13:06:45.098148+00:00",
+  "serialized_at": "2026-10-27T13:13:42.867769+00:00",
   "shap_source": "Random Forest feature-importance fallback; SHAP not installed",
   "shap_summary": {
     "categorical__claim_type_collision": 0.01803485484825874,
@@ -95,7 +95,7 @@
     "numeric__vehicle_age_years": 0.1295775475350576
   },
   "test_rows": 2000,
-  "training_date": "2026-10-27T13:06:45.062192+00:00",
+  "training_date": "2026-10-27T13:13:42.830269+00:00",
   "training_rows": 8000,
   "version": "1.0.0"
 }
