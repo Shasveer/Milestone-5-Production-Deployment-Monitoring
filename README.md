@@ -12,6 +12,8 @@ artifacts, exercises inference, and records a drift-monitoring result.
 - `khetha_production_deployment.py`: deployer, production inference wrapper,
 	PSI/performance monitoring, manifest generation, dashboard, and executable
 	orchestration.
+- `khetha_preprocessing.py`: importable sparse-to-dense transform used in the
+	serialized inference pipeline.
 - `claims_data.csv`: claim-level model features and `fraud_label` target.
 - `fraud_labels.csv`, `vehicles.csv`, `policyholders.csv`: companion reference
 	datasets retained with the submission.
@@ -93,16 +95,21 @@ The generated lock captures the actual deployment environment; it does not
 install or upgrade packages at runtime. Promote the artifact and its matching
 metadata/lock together so the preprocessing contract cannot drift from the
 classifier. Sparse preprocessor output is converted to dense arrays before
-median imputation; the runner logs the estimated dense memory size, so assess
-that estimate before using this fallback with substantially larger datasets.
+median imputation during both training and inference; the runner logs the
+estimated dense memory size, so assess that estimate before using this fallback
+with substantially larger datasets. This densification also supports sparse
+output from the upstream M2 preprocessor. The `khetha_preprocessing.py`
+utility must ship beside the script so deserialized pipelines can resolve the
+transform.
 
 ## Inference Contract
 
 Instantiate `KhethaProductionDeployer` with the fitted complete pipeline and
 metadata. `metadata["features_expected"]` is the authoritative input schema.
 The inference wrapper accepts exactly one JSON object with all and only those
-keys, rejects nested values and schema mismatches, loads the cached joblib
-artifact, and returns a JSON-compatible record:
+keys, rejects nested values and schema mismatches, normalizes scalar
+categorical/boolean values using the recorded training feature dtypes, loads
+the cached joblib artifact, and returns a JSON-compatible record:
 
 ```json
 {"flag": 0, "prob": 0.12, "version": "1.0.0"}

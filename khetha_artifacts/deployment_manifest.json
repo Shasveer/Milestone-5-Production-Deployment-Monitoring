@@ -13,7 +13,8 @@
     "vehicles.csv",
     "policyholders.csv",
     "geographic_risks.csv",
-    "config.json"
+    "config.json",
+    "khetha_preprocessing.py"
   ],
   "runtime_dependencies": {
     "joblib": "1.6.0",

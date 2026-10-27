@@ -11,6 +11,16 @@
     "scikit-learn": "1.9.1",
     "scipy": "1.18.1"
   },
+  "feature_dtypes": {
+    "claim_amount": "float64",
+    "claim_type": "str",
+    "policyholder_tenure_months": "int64",
+    "prior_claims_count": "int64",
+    "province": "str",
+    "submission_channel": "str",
+    "tracking_device_installed": "bool",
+    "vehicle_age_years": "int64"
+  },
   "features_expected": [
     "province",
     "claim_type",
@@ -53,7 +63,7 @@
   ],
   "positive_class": 1,
   "retraining_log": [],
-  "serialized_at": "2026-10-27T12:57:40.893630+00:00",
+  "serialized_at": "2026-10-27T13:06:45.098148+00:00",
   "shap_source": "Random Forest feature-importance fallback; SHAP not installed",
   "shap_summary": {
     "categorical__claim_type_collision": 0.01803485484825874,
@@ -85,7 +95,7 @@
     "numeric__vehicle_age_years": 0.1295775475350576
   },
   "test_rows": 2000,
-  "training_date": "2026-10-27T12:57:40.878890+00:00",
+  "training_date": "2026-10-27T13:06:45.062192+00:00",
   "training_rows": 8000,
   "version": "1.0.0"
 }

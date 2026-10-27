@@ -24,7 +24,9 @@ from sklearn.impute import SimpleImputer
 from sklearn.metrics import f1_score, precision_score, recall_score, roc_auc_score
 from sklearn.model_selection import StratifiedKFold, cross_val_score, train_test_split
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import FunctionTransformer, OneHotEncoder
+
+from khetha_preprocessing import dense_for_median_imputation
 
 
 ROOT = Path(__file__).resolve().parent
@@ -84,21 +86,6 @@ def _local_preprocessor(X_train: pd.DataFrame) -> ColumnTransformer:
     )
 
 
-def _dense_for_median_imputation(encoded: Any) -> Any:
-    if not hasattr(encoded, "toarray"):
-        return encoded
-    estimated_bytes = (
-        int(encoded.shape[0])
-        * int(encoded.shape[1])
-        * np.dtype(encoded.dtype).itemsize
-    )
-    LOGGER.info(
-        "Densifying sparse encoded data for median imputation (estimated %.2f MiB)",
-        estimated_bytes / (1024 ** 2),
-    )
-    return encoded.toarray()
-
-
 def _local_feature_split(claims: pd.DataFrame):
     target_column = "fraud_label"
     if target_column not in claims.columns:
@@ -149,8 +136,8 @@ def _build_training_assets(root: Path = ROOT):
     )
     encoded_train = preprocessor.fit_transform(X_train, y_train)
     encoded_test = preprocessor.transform(X_test)
-    encoded_train = _dense_for_median_imputation(encoded_train)
-    encoded_test = _dense_for_median_imputation(encoded_test)
+    encoded_train = dense_for_median_imputation(encoded_train)
+    encoded_test = dense_for_median_imputation(encoded_test)
     imputer = SimpleImputer(strategy="median")
     encoded_train = imputer.fit_transform(encoded_train)
     encoded_test = imputer.transform(encoded_test)
@@ -209,6 +196,7 @@ def _build_training_assets(root: Path = ROOT):
     complete_pipeline = Pipeline(
         [
             ("preprocessor", preprocessor),
+            ("densify", FunctionTransformer(dense_for_median_imputation, validate=False)),
             ("imputer", imputer),
             ("model", model),
         ]
@@ -236,7 +224,7 @@ def _build_training_assets(root: Path = ROOT):
     if m4 is not None and hasattr(m4, "KhethaEvaluator"):
         try:
             evaluator = m4.KhethaEvaluator(
-                model, encoded_train, y_train, encoded_test, y_test, _read_config(root)
+                model, encoded_train, y_train, encoded_test, y_test
             )
             evaluation_summary = evaluator.generate_classification_report()
             metrics.update(evaluation_summary.get("metrics", {}))
@@ -275,6 +263,7 @@ def _build_training_assets(root: Path = ROOT):
         "training_date": _utc_now(),
         "metrics": metrics,
         "features_expected": list(X_train.columns),
+        "feature_dtypes": {feature: str(dtype) for feature, dtype in X_train.dtypes.items()},
         "positive_class": 1,
         "decision_threshold": float(_read_config(root).get("fraud_detection", {}).get("default_threshold", 0.65)),
         "performance_ci": [float(ci[0]), float(ci[1])],
@@ -343,6 +332,7 @@ class KhethaProductionDeployer:
             "required_files": [
                 "claims_data.csv", "fraud_labels.csv", "vehicles.csv",
                 "policyholders.csv", "geographic_risks.csv", "config.json",
+                "khetha_preprocessing.py",
             ],
             "health_artifacts": ["deployment_manifest.json", "environment_lock.json", "health_dashboard.json"],
         }
@@ -405,7 +395,21 @@ class KhethaProductionDeployer:
             self.serialize_pipeline(self.active_version)
         start_time = time.perf_counter()
         cached_pipeline = joblib.load(self.cached_pipeline_path)
-        row = pd.DataFrame([{feature: raw_payload[feature] for feature in expected}], columns=expected)
+        normalized_values = {feature: raw_payload[feature] for feature in expected}
+        for feature, dtype in self.metadata.get("feature_dtypes", {}).items():
+            if feature not in normalized_values:
+                continue
+            value = normalized_values[feature]
+            if pd.isna(value):
+                continue
+            if dtype in {"object", "string", "category", "str"}:
+                normalized_values[feature] = str(value)
+            elif dtype in {"bool", "boolean"} and not isinstance(value, (bool, np.bool_)):
+                if isinstance(value, (int, float, np.integer, np.floating)) and value in (0, 1):
+                    normalized_values[feature] = bool(value)
+                else:
+                    raise TypeError(f"Feature {feature!r} must be a boolean value")
+        row = pd.DataFrame([normalized_values], columns=expected)
         if not hasattr(cached_pipeline, "predict_proba"):
             raise TypeError("The serialized pipeline must implement predict_proba()")
         probabilities = np.asarray(cached_pipeline.predict_proba(row))
