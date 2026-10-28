@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import importlib
 import importlib.metadata
 import json
@@ -308,6 +309,29 @@ class KhethaProductionDeployer:
         if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,63}", str(version)):
             raise ValueError("version must contain only letters, digits, dot, underscore, or hyphen")
         return self.artifact_dir / f"pipeline_v{version}.{suffix}"
+
+    def validate_environment_lock(self, lock_path: Path | None = None) -> None:
+        """Require an existing lock's Python and runtime versions to match this host."""
+        lock_path = lock_path or self.artifact_dir / "environment_lock.json"
+        if not lock_path.is_file():
+            raise FileNotFoundError(f"Environment lock not found: {lock_path}")
+        lock = json.loads(lock_path.read_text(encoding="utf-8"))
+        mismatches = []
+        locked_python = lock.get("python")
+        if locked_python and locked_python != platform.python_version():
+            mismatches.append(f"python: locked={locked_python}, installed={platform.python_version()}")
+        for distribution, locked_version in lock.get("dependencies", {}).items():
+            try:
+                installed_version = importlib.metadata.version(distribution)
+            except importlib.metadata.PackageNotFoundError:
+                mismatches.append(f"{distribution}: locked={locked_version}, installed=missing")
+                continue
+            if str(locked_version) != installed_version:
+                mismatches.append(
+                    f"{distribution}: locked={locked_version}, installed={installed_version}"
+                )
+        if mismatches:
+            raise RuntimeError("Environment lock mismatch: " + "; ".join(mismatches))
 
     def generate_environment_manifest(self) -> Dict[str, Any]:
         """Write exact runtime version locks and a production dependency manifest."""
@@ -633,6 +657,9 @@ This report records model version, training/validation evidence, explainability 
     def deploy(self, version: str) -> Dict[str, Any]:
         """Write locks, model, report, and health dashboard as one deployment sequence."""
         self.active_version = str(version)
+        lock_path = self.artifact_dir / "environment_lock.json"
+        if lock_path.is_file():
+            self.validate_environment_lock(lock_path)
         manifest = self.generate_environment_manifest()
         artifact = self.serialize_pipeline(version)
         report = self.generate_deployment_report(
@@ -655,7 +682,19 @@ This report records model version, training/validation evidence, explainability 
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Deploy and validate the Khetha fraud model")
+    parser.add_argument(
+        "--validate-lock",
+        action="store_true",
+        help="validate the installed environment against khetha_artifacts/environment_lock.json",
+    )
+    args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    if args.validate_lock:
+        deployer = KhethaProductionDeployer(None, {"features_expected": ["__lock_validation__"]})
+        deployer.validate_environment_lock()
+        print("Environment lock validated")
+        return
     pipeline, metadata, X_train, X_test, _ = _build_training_assets(ROOT)
     config = _read_config(ROOT)
     thresholds = config.get("model_retraining", {})

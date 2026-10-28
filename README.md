@@ -91,10 +91,16 @@ The run creates `khetha_artifacts/` and writes:
 - `shap_summary.png` and local SHAP explanations when the M4 evaluator and
 	SHAP dependency are available.
 
-The generated lock captures the actual deployment environment; it does not
-install or upgrade packages at runtime. Promote the artifact and its matching
-metadata/lock together so the preprocessing contract cannot drift from the
-classifier. Sparse preprocessor output is converted to dense arrays before
+The generated lock captures the actual deployment environment. Validate that
+environment before promotion or reuse with:
+
+```bash
+python khetha_production_deployment.py --validate-lock
+```
+
+Deployment reruns also validate an existing lock and stop on Python or package
+version mismatches. Promote the artifact and its matching metadata/lock together
+so the preprocessing contract cannot drift from the classifier. Sparse preprocessor output is converted to dense arrays before
 median imputation during both training and inference; the runner logs the
 estimated dense memory size, so assess that estimate before using this fallback
 with substantially larger datasets. This densification also supports sparse
